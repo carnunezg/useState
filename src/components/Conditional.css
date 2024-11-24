@@ -1,0 +1,42 @@
+.conditional {
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(195, 221, 221);
+    padding: 5rem;
+    color: red;
+    margin: auto;
+    border-color: black;
+    width: 50%;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem; 
+}
+
+.buttonConditional {
+    color: white;
+    font-size: 2rem;
+    width: 10rem;
+    padding: 1rem;
+    background-color: rgb(73, 72, 72);
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    margin: 1rem; 
+    cursor: pointer;
+}
+
+.buttonConditional:hover{
+    background-color: rgb(20, 20, 20);
+    transform: translate(-5px);
+    -webkit-transform: translate(-5px);
+    -moz-transform: translate(-5px);
+    -ms-transform: translate(-5px);
+    -o-transform: translate(-5px);
+}
